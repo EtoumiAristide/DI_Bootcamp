@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.gauche {
+.cotes {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -20,12 +20,6 @@
     grid-auto-flow: column;
     align-items: center;
     grid-gap: 50px;
-}
-
-.droite {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
 }
 
 .item {
