@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    width: 10%;
+    background-color: #909BED
+}
+
+.team {
+    width: 50%;
+    background-color: #94D4FB
+}
+
+.product {
+    width: 40%;
+    background-color: #F08C81
+}

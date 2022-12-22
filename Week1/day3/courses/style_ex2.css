@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc {
+    background-color: #86D1EE;
+    text-align: center;
+}
+
+.bloc span {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-bloc {
+    height: 60px;
+}
+
+.middle-bloc {
+    height: 50px;
+    width: 100px;
+    align-self: flex-end
+}
+
+.footer-bloc {
+    height: 60px;
+}

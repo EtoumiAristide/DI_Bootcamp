@@ -1,0 +1,37 @@
+.text-jaune {
+  background-color: yellow;
+}
+
+.cat-sense {
+  margin-left: 30px;
+}
+
+.cat-sense h4 {
+  text-decoration: underline;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.media{
+  text-align: center;
+}
+
+.media img{
+  margin: 5px;
+  border: 5px solid orangered;
+}
+
+.title-bordered{
+  border: 1px solid red;
+}
+
+.caract-behavior{
+  margin: 0px 100px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid grey;
+}
