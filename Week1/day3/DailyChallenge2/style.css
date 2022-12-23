@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pattern1{
+    display: grid;
+    grid-template-columns: 10fr;
+}
+
+.boc-patern1{
+    display: flex;
+}
+
+.item-orange{
+    height: 20px;
+    width: 20px;
+    background-color: #FF7100;
+}
+.item-belge{
+    height: 20px;
+    width: 20px;
+    background-color: #FFB26D;
+}
+.item-marron{
+    height: 20px;
+    width: 20px;
+    background-color: #A84A00;
+}
