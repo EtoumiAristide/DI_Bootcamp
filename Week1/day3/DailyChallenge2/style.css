@@ -10,27 +10,22 @@
     justify-content: space-between;
 }
 
-.pattern1{
+.patern1{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(16, 15px);
+    grid-template-rows: 20% 20% 20% 20%;
 }
 
-.boc-patern1{
-    display: flex;
-}
-
-.item-orange{
-    height: 20px;
-    width: 20px;
+.box-pat1{
     background-color: #FF7100;
 }
-.item-belge{
-    height: 20px;
-    width: 20px;
-    background-color: #FFB26D;
-}
-.item-marron{
-    height: 20px;
-    width: 20px;
-    background-color: #A84A00;
+
+.box-pat1:nth-child(12n + 2),
+.box-pat1:nth-child(12n + 4),
+.box-pat1:nth-child(12n + 6),
+/* next row  of 6 */
+.box-pat1:nth-child(12n + 7),
+.box-pat1:nth-child(12n + 9),
+.box-pat1:nth-child(12n + 11) {
+  background-color: #FFB26D;
 }
